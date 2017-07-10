@@ -24,13 +24,11 @@ class EmployeeList extends Component {
 		this.dataSource = ds.cloneWithRows(employees);
 	}
 
-	renderRow() {
+	renderRow(employee) {
 		return <ListItem employee={employee} />
 	}
 
 	render() {
-
-		console.log('THESE PROPS: ', this.props)
 		return (
 			<ListView
 				enableEmptySections
