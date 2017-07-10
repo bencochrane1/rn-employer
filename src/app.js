@@ -17,7 +17,7 @@ class MainApp extends Component {
 			storageBucket: 'bc-auth.appspot.com',
 			messagingSenderId: '153713082779'
 		};
-
+		
 		firebase.initializeApp(config);
 	}
 
